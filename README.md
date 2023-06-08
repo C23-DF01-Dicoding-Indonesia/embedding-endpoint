@@ -6,7 +6,7 @@ You can use the ready Docker image from [carlesoctav/my_bert_model](https://hub.
 
 ```bash
 docker pull carlesoctav/my_bert_model
-docker run -d -p 8501:8501 -p 8500:8500 --name carlesoctav/bert my_bert_model
+docker run -d -p 8501:8501 -p 8500:8500 --name carlesoctav/my_bert_model
 ```
 
 PORT 8501 is for the REST API, and PORT 8500 is for the gRPC API.
